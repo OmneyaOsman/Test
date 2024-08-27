@@ -52,7 +52,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
             text = "Hello Hello $name!",
             modifier = modifier.clickable {
                 Analytics.trackEvent("My custom event")
-                //            Crashes.generateTestCrash()
+//                            Crashes.generateTestCrash()
                 //            throw Exception("noo")
             }
         )
