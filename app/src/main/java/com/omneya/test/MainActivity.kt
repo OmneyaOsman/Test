@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         AppCenter.start(
-            application, "884a45eb-829f-44e7-9daf-352eaca110b4",
+            application, "5c2d48d6e92f310b21a3278306e1cfbe36a007c3",
             Analytics::class.java, Crashes::class.java
         )
         enableEdgeToEdge()
